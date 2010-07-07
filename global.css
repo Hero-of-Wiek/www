@@ -1,0 +1,42 @@
+h1 {background-color: black; color: white; -moz-border-radius: 25px; padding: 7px; background-image:url('header.png') !important;}
+#nav-ul {background-color: gray; -moz-border-radius: 25px;}
+#main-content {display: inline-block; top: auto; border: 1px solid black; -moz-border-radius: 25px; padding: 7px; height: auto; width: 75%; height: 80%; overflow: auto;}
+#sidebar-content {display: inline-block; top: auto; border: 1px solid black; -moz-border-radius: 25px; padding: 7px; height: auto; width: 20%; float: right; height: 80%; overflow: auto; vertical-align: top;}
+.side-date {font-weight: bold; color: #222222;}
+#cc {float: left; padding-top: 15px;}
+.download-box {background-color: green; color: white; -moz-border-radius: 25px; padding: 7px; text-align: center;}
+.download-box > a:hover {text-decoration: underline;}
+.download-box > a {color: white; font-size: 150%; text-decoration: none;}
+ul {
+ padding: 0;
+ margin: 0;
+ list-style: none;
+}
+li {
+ float: left;
+ position: relative;
+ width: 9em;
+}
+li ul {
+ display: none;
+ position: absolute; 
+ top: 1em;
+ left: 0;
+}
+li > ul {
+	top: auto;
+	left: auto;
+	opacity: 0.9;
+	background-color: gray;
+	padding: 5px;
+	border: 1px solid gray;
+	-moz-border-radius: 15px;
+}
+li > ul > li:hover {opacity: 1;}
+li > ul > li {opacity: 0.7;}
+li > ul > li >a {color: white;}
+#nav-ul {background-color: gray; -moz-border-radius: 25px;}
+li:hover ul { display: block; }
+.menu-group {font-weight: bold; margin-left: 1px; padding-left: 0px; opacity: 1;}
+.menu-hidden {display: none;}
+
